@@ -1,0 +1,135 @@
+body {
+  font-family: 'Georgia', serif;
+  background: url('fundo-gossipgirl.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  padding: 30px 0;
+}
+
+header h1 {
+  font-size: 2.5em;
+  color: #f4c2c2;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.1em;
+  color: #ffe6e6;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: #f4c2c2;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover,
+.ativo {
+  color: gold;
+  text-decoration: underline;
+}
+
+main {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 40px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.banner {
+  padding: 50px 0;
+}
+
+.banner h2 {
+  font-size: 2em;
+  color: #ffe6e6;
+}
+
+.botao {
+  display: inline-block;
+  background-color: #f4c2c2;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.botao:hover {
+  background-color: gold;
+  color: #000;
+}
+
+.produtos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.item {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+}
+
+.item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.preco-antigo {
+  text-decoration: line-through;
+  color: #bbb;
+  font-size: 0.9em;
+}
+
+form input,
+form textarea,
+button {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: none;
+}
+
+button {
+  background-color: #f4c2c2;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: gold;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  padding: 15px;
+  color: #f4c2c2;
+  font-size: 0.9em;
+}
